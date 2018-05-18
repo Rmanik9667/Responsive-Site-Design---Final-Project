@@ -1,0 +1,368 @@
+body{
+    font-family:arial,helvetica,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+
+/* global*/
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+fieldset {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid white;
+}
+.label1{
+    width: 50%;
+}   
+
+
+legend {
+    display: block;
+    width: 100%;
+}
+
+fieldset > div {
+    display: inline;
+    flex: 1 1 auto;
+}
+
+
+form{
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+label{
+    margin: 10px;
+}
+input[type=submit]{
+    background-color:dimgray;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+    border-radius: 10px
+   
+}
+.aside{
+    font-size: 20px;
+}
+* {
+    box-sizing: border-box;
+}
+span{
+    font-size: 35px;
+}
+.tel{
+    font-size: 20px;
+}
+.change{
+ color: darkblue;   
+}
+#good{
+    
+    color: green;
+}
+
+#satisfied{
+    color: darkorange;
+}
+#bad{
+    color: red;
+}
+a:link{
+    text-decoration: none;
+     color: darkblue;
+}
+a:hover{
+    color:#e8491d ;
+}
+.content{
+    text-align: center;
+    font-size: 30px;
+    padding: 14px 20px;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    float: left;
+    
+}
+.contact {
+   text-align: center;
+    font-size: 30px;
+    width: 100%;
+}
+
+.button_1{
+    height: 30px;
+    background: #e8491d;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+}
+
+.dark{
+    padding:15px;
+    background: #35424a;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+/*header*/
+header{
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight,header .current a{
+    color: #e8491d;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: #cccccc;
+    font-weight: bold;
+}
+
+/*showcase*/
+#showcase{
+    min-height: 400px;
+    background: url(images/showcase.jpg) no-repeat 0 -450px;
+    text-align: center;
+    color: #e8491d;
+    opacity: 0.80;
+}
+#showcase1{
+    min-height: 400px;
+    background: url(images/showcase1.jpg) no-repeat 0 -400px;
+    text-align: center;
+    color: #e8491d;
+    opacity: 0.80;
+}
+
+#showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#showcase p{
+    font-size: 20px;
+}
+
+/*newsletter*/
+#newsletter{
+    padding: 15px;
+    color: #ffffff;
+    background: lightgrey;
+}
+
+#newsletter h1{
+    float: left;
+}
+
+#newsletter form{
+    float: right;
+    margin-top: 15px;
+}
+
+#newsletter input [type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+/*boxes*/
+#boxes{
+    margin-top: 20px;
+}
+
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+#boxes .box img{
+    width: 90px;
+}
+
+/*sidebar*/
+aside #sidebar1{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+aside #sidebar .quote input,aside #sidebar .quote textarea{
+    width: 80%;
+    padding: 5px;
+}
+
+.page-title{
+   font-size: 50px;
+    text-align: center;
+    border-bottom: 5px solid black;
+}
+h2{
+    margin-left: 150px;
+    margin-right: 150px;
+   border-bottom: 5px solid black;
+    text-align: center;
+}
+.border{
+    font-size: 40px;
+    text-align: center;
+        margin-left: 150px;
+    margin-right: 150px;
+   border-bottom: 5px solid black; 
+}
+/*main-col*/
+article #main-col{
+    float: left;
+    width: 65%;
+}
+
+/*services*/
+ul #services li{
+    list-style: none;
+    padding: 20px;
+    border: #cccccc solid 1px;
+    margin-bottom: 5px;
+    background: #e6e6e6;
+    
+}
+
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #e8491d;
+    text-align: center;
+}
+
+table
+{
+
+    border-spacing: 0;
+    background-color: #ffffcc;
+    text-align: left;
+    margin: 0 auto;
+    width: 100%;  
+  border-collapse: collapse; 
+    
+}
+
+tr:nth-of-type(odd) { 
+  background: lightgrey; 
+}
+th { 
+  background: #333; 
+  color: white; 
+  font-weight: bold;  
+} 
+ 
+td, th
+{
+    padding: 10px;
+      border: 1px solid #ccc; 
+  text-align: left;
+}
+tr:nth-of-type(odd){
+ background-color: #e8491d;   
+}
+
+/*media queries*/
+@media (max-width:768px){
+    header #branding,header nav,header nav li,#newsletter h1,#newsletter form,#boxes .box,article #main-col,aside #sidebar .label1 .change .aside {
+        display: block;
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    header{
+        padding-bottom: 20px;
+    }
+    #showcase h1{
+        margin-top: 40px;
+    }
+    #showcase1 h1{
+        margin-top: 40px;
+    }
+    #showcase1{
+    display: block;
+    }
+    #newsletter button, .quote button{
+        display: block;
+        width: 100%;
+    }
+    #newsletter form input[type="email"], .quote input, .quote textarea{
+        width: 100%;
+        padding: 5px;
+    }
+    .change, .aside{
+        width: 100%;
+        text-align: center;
+        display: block;
+
+    }
+    .content{float: none;}
+    .tel{
+        text-align: center;
+    }
+    input{
+        display: 100%;
+    }
+}
